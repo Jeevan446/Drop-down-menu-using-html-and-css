@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: #36454f;
+}
+.list1 ul li{
+    display: inline-block;
+    padding: 15px;
+}
+.list1 ul{
+    text-align: center;
+    background-color: black;
+}
+.list1 ul li:hover{
+    background-color: rgb(39, 147, 164);
+}
+.list2{
+    display: none;
+}
+.list1 ul li:hover .list2{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.list2 ul li{
+    display: block;
+}
+.list2 ul li:hover{
+    background-color: rgb(45, 50, 100);
+}
+li{
+    cursor: pointer;
+}
+.list3{
+    display: none;
+}
+.list2 ul li:hover .list3{
+    display: block;
+    position: absolute;
+    margin-left: 98px;
+}
